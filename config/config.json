@@ -1,0 +1,91 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "quem-somos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/quemSomos/QuemSomosWebPart.js",
+          "manifest": "./src/webparts/quemSomos/QuemSomosWebPart.manifest.json"
+        }
+      ]
+    },
+    "area-de-atuacao-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/areaDeAtuacao/AreaDeAtuacaoWebPart.js",
+          "manifest": "./src/webparts/areaDeAtuacao/AreaDeAtuacaoWebPart.manifest.json"
+        }
+      ]
+    },
+    "backoffice-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/backoffice/BackofficeWebPart.js",
+          "manifest": "./src/webparts/backoffice/BackofficeWebPart.manifest.json"
+        }
+      ]
+    },
+    "comercial-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/comercial/ComercialWebPart.js",
+          "manifest": "./src/webparts/comercial/ComercialWebPart.manifest.json"
+        }
+      ]
+    },
+    "operacao-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/operacao/OperacaoWebPart.js",
+          "manifest": "./src/webparts/operacao/OperacaoWebPart.manifest.json"
+        }
+      ]
+    },
+    "detalhes-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/detalhes/DetalhesWebPart.js",
+          "manifest": "./src/webparts/detalhes/DetalhesWebPart.manifest.json"
+        }
+      ]
+    },
+    "projetos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/projetos/ProjetosWebPart.js",
+          "manifest": "./src/webparts/projetos/ProjetosWebPart.manifest.json"
+        }
+      ]
+    },
+    "detalhes-projeto-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/detalhesProjeto/DetalhesProjetoWebPart.js",
+          "manifest": "./src/webparts/detalhesProjeto/DetalhesProjetoWebPart.manifest.json"
+        }
+      ]
+    },
+    "links-rapidos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/linksRapidos/LinksRapidosWebPart.js",
+          "manifest": "./src/webparts/linksRapidos/LinksRapidosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "QuemSomosWebPartStrings": "lib/webparts/quemSomos/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "AreaDeAtuacaoWebPartStrings": "lib/webparts/areaDeAtuacao/loc/{locale}.js",
+    "BackofficeWebPartStrings": "lib/webparts/backoffice/loc/{locale}.js",
+    "ComercialWebPartStrings": "lib/webparts/comercial/loc/{locale}.js",
+    "OperacaoWebPartStrings": "lib/webparts/operacao/loc/{locale}.js",
+    "DetalhesWebPartStrings": "lib/webparts/detalhes/loc/{locale}.js",
+    "ProjetosWebPartStrings": "lib/webparts/projetos/loc/{locale}.js",
+    "DetalhesProjetoWebPartStrings": "lib/webparts/detalhesProjeto/loc/{locale}.js",
+    "LinksRapidosWebPartStrings": "lib/webparts/linksRapidos/loc/{locale}.js"
+  }
+}
