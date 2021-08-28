@@ -3,7 +3,7 @@
   "solution": {
     "name": "linde-digital-client-side-solution",
     "id": "cf33f1a9-7424-4ee3-9260-032fa18f2f5a",
-    "version": "1.0.1.5",
+    "version": "1.0.1.6",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
     "developer": {

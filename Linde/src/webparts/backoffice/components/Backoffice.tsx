@@ -25,7 +25,7 @@ export default class Backoffice extends React.Component<IBackofficeProps, {}> {
     let select = 'Title, Contexto, Problema, Solucao, Area/Id, Area/Title';
     let filter = "Area.Title eq 'Backoffice'";
     let expand = 'Area';
-    let allItens = await GetFiles(this.props.description);
+    let allItens = await GetFiles(this.props.list);
     // let allItens = await GetItemExpandedFiltered(this.props.list, select, filter, expand);
     // let allItens = await GetAllItens(this.props.list);
     console.log(allItens)

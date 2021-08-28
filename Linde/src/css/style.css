@@ -130,15 +130,11 @@ body {
   #hero {
     width: 100%;
     height: 50vh;
+    /* background-image: url('https://fabricatheone.sharepoint.com/sites/LindeDigital/SiteAssets/bkgImage.jpg'); */
     background: #37517e;
-    
+    /* padding: 60px 0; */
   }
-  
-  #hero .container {
-    padding-top: 72px;
     
-  }
-  
   #hero h1 {
     margin: 0 0 10px 0;
     font-size: 48px;
@@ -157,6 +153,7 @@ body {
     color: rgba(255, 255, 255, 0.6);
     margin-bottom: 80px;
     font-size: 20px;
+    text-align: justify;
   }
   
   #hero .btn-get-started {
@@ -362,6 +359,14 @@ body {
   /*--------------------------------------------------------------
   # About Us
   --------------------------------------------------------------*/
+  .sobre-nos {
+    padding: 60px 0;
+  }
+
+  .icon-about {
+    width: 15px;
+  }
+  
   .about .content h3 {
     font-weight: 600;
     font-size: 26px;
@@ -373,7 +378,7 @@ body {
   }
   
   .about .content ul li {
-    padding-left: 28px;
+    /* padding-left: 28px; */
     position: relative;
   }
   
@@ -609,8 +614,8 @@ body {
   # Services
   --------------------------------------------------------------*/
 
-  section .area-atuacao {
-    padding-top: 50px;
+  .area-atuacao {
+    padding: 60px 0;
   }
   
   .services .icon-box {
@@ -620,6 +625,8 @@ body {
     background: #fff;
     background-color: #fff;
     opacity: 9;
+    width: 450px;
+    height: 226px;
   }
   
   .services .icon-box .icon {
@@ -649,15 +656,15 @@ body {
     line-height: 24px;
     font-size: 14px;
     font-weight: 600;
-    margin-top: 28px;
+    margin-top: 130px;
     margin-bottom: 0;
     text-align: center;
     color: white;
   }
 
-  .services .icon-box p .seeMore {
+  /* .services .icon-box p .seeMore {
     margin-top: 48px;
-  }
+  } */
   
   .services .icon-box:hover {
     transform: translateY(-10px);
@@ -668,7 +675,7 @@ body {
   }
 
   .seeMore a  {
-    margin-top: 15px;
+    /* margin-top: 15px; */
     border: solid 2px white;
     color: white;
     padding: 10px;

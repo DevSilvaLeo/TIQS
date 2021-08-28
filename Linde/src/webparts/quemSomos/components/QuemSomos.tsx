@@ -39,14 +39,14 @@ export default class QuemSomos extends React.Component<IQuemSomosProps, {}> {
                 </h3>
               </div>
               <div className="col-lg-6">
-                <img src={'https://www.netfarma.pt/wp-content/uploads/Linde-Logo.jpg'} className="img-fluid"/>
+                <img src={'https://fabricatheone.sharepoint.com/sites/LindeDigital/SiteAssets/Banner.jpg'} className="img-fluid"/>
               </div>
             </div>
           </div>
         </section>
 
         <main id="main">
-          <section id="about" className="about">
+          <section id="about" className="about sobre-nos">
             <div className="container" data-aos="fade-up">
               <div className="section-title">
                 <h2>Sobre nós</h2>
@@ -60,11 +60,11 @@ export default class QuemSomos extends React.Component<IQuemSomosProps, {}> {
                 </div>
                 <div className="col-lg-6 pt-4 pt-lg-0">
                   <ul>
-                    <li><i className="ri-check-double-line"></i> <strong>Automação,</strong> com a utilização de RPA para aumentar eficiência de processos reduzindo trabalhos manuais e repetitivos.</li>
-                    <li><i className="ri-check-double-line"></i> <strong>Experiência do cliente,</strong> com foco em iniciativas de relacionamento e encantamento. </li>
-                    <li><i className="ri-check-double-line"></i> <strong>Logística,</strong>  com projetos que otimizem a cadeia logística para redução de custos. </li>
-                    <li><i className="ri-check-double-line"></i> <strong>Operações avançadas,</strong>com foco em soluções para aumentar a confiabilidade e eficiência de equipmantos</li>
-                    <li><i className="ri-check-double-line"></i> <strong>Processos de Negócios,</strong> com o desenvolvimento de ferramentas avançadas de precificação, prospecção e gestão da carteira de clientes. </li>
+                    <li><img className="icon-about" src="https://fabricatheone.sharepoint.com/sites/LindeDigital/SiteAssets/icons/doublecheck.jpg"/> <strong>Automação,</strong> com a utilização de RPA para aumentar eficiência de processos reduzindo trabalhos manuais e repetitivos.</li>
+                    <li><img className="icon-about" src="https://fabricatheone.sharepoint.com/sites/LindeDigital/SiteAssets/icons/doublecheck.jpg"/> <strong>Experiência do cliente,</strong> com foco em iniciativas de relacionamento e encantamento. </li>
+                    <li><img className="icon-about" src="https://fabricatheone.sharepoint.com/sites/LindeDigital/SiteAssets/icons/doublecheck.jpg"/> <strong>Logística,</strong>  com projetos que otimizem a cadeia logística para redução de custos. </li>
+                    <li><img className="icon-about" src="https://fabricatheone.sharepoint.com/sites/LindeDigital/SiteAssets/icons/doublecheck.jpg"/> <strong>Operações avançadas,</strong>com foco em soluções para aumentar a confiabilidade e eficiência de equipmantos</li>
+                    <li><img className="icon-about" src="https://fabricatheone.sharepoint.com/sites/LindeDigital/SiteAssets/icons/doublecheck.jpg"/> <strong>Processos de Negócios,</strong> com o desenvolvimento de ferramentas avançadas de precificação, prospecção e gestão da carteira de clientes. </li>
                   </ul>
                 </div>
               </div>
